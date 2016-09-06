@@ -1,4 +1,16 @@
-fugafuga contribution
-fugafuga licence
 
-test-----------
+** pushまでの流れ
+
+1. ローカルのリポジトリにリモートのリポジトリ(origin)を追加する
+
+- git remote add origin（追加）
+- git remote rm origin（削除）
+
+2. フェッチする
+- git fetch origin
+
+3. originにmasterブランチをプッシュする
+- git push origin master
+
+
+
